@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "run:dev": "nodemon index.js"
+    "run:dev": "npx nodemon ./index.ts"
   },
   "repository": {
     "type": "git",
@@ -21,6 +20,8 @@
     "nodemon": "^2.0.20"
   },
   "dependencies": {
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
   }
 }
